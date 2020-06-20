@@ -22,6 +22,7 @@ valor = input('Digite algo: ')
 valor1 = input('Digite outra coisa: ')
 valor2 = input('Digite algo a mais: ')
 
+#Exemplos
 print(valor.isalpha())#se ele é alfabético
 print(valor1.isnumeric())#se ele é numérico
 print(valor2.isalnum())#se ele é alfanumérico
