@@ -1,12 +1,12 @@
-def ln(t=1):
+def ln(t = 1):
     #função que quando executada mostrará uma linha conforme o valor recebido em t. Criada como teste de uso de funções, para diminuir o número de comandos print na tela  e para poupar trabalho de reescrever a função print novamente(preguiça que chama :p )
 
-    if t==0:
-        print('='*30)
-    elif t==1:
-        print('-'*30)
-    elif t==2:
-        print('-='*30)
+    if t == 0:
+        print('=' * 30)
+    elif t == 1:
+        print('-' * 30)
+    elif t == 2:
+        print('-=' * 30)
 
 
 #Supondo que queremos escrever uma mensagem(um tipo de dado), para isso, precisaremos de delimitadores especiais para mensagens, o delimitador padrão do python nessa situação é aspas["(duplas);'(simples)] e para executar a ação de escrever essa mensagem, utilizamos a função print().
@@ -79,7 +79,7 @@ print('Desafio 03')
 n0 = int(input('Digite um valor: '))
 n1 = int(input('Digite outro valor: '))
 print('A soma de {0} e {1} é {2}'.format(n0, n1, (n0 + n1)))
-print(f'{n0} + {n1} = {n0+n1}')
+print(f'{n0} + {n1} = {n0 + n1}')
 
 ln()
 
@@ -87,6 +87,8 @@ ln()
 
 n2 = int(input('Type a value: '))
 n3 = int(input('Type another value: '))
+
 s = n2 + n3
+
 print('{0} + {1} = {2}'.format(n2, n3, s))
 print(f'{n2} + {n3} = {s}')

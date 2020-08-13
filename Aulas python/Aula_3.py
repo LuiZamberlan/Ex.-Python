@@ -74,6 +74,13 @@ print(f'Prazer em te conhecer {nome :^20}!')
 print(f'Prazer em te conhecer {nome :=^20}!')
 
 #Também é possível limitar o número de casas decimais em de valores tipo float:
-na1 = 10/3
+na1 = 10 / 3
 
 print(f'o número é {na1:.3f}')#3 é o número de casas decimais que irá ser exibida
+
+#Parâmetro end: possíbilita a finalização do print de uma linha com um caráctere(ou não) tipo string
+print('Olá,', end = ' ')
+print('Luiz.')
+
+#Caractere \n em um print serve para a quebra da linha:
+print('Olá,\nLuiz.')
