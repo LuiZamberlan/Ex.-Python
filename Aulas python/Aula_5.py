@@ -36,7 +36,7 @@ print('Curso' in frase)
 
 
 #Transformações de listas de strings a partir de métodos
-print(frase.replace('python','android'))
+print(frase.replace('python', 'android'))
 #O método replace() faz uma cópia da lista e substituindo uma parte do texto por outros elementos
 
 print(frase.upper())
