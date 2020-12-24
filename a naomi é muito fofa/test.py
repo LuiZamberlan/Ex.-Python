@@ -95,6 +95,3 @@ while True:
 
     else:
         print('Error 404: command not found')
-
-print('End')
-
