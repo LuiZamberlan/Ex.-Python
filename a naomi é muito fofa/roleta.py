@@ -1,6 +1,7 @@
 from random import randint
 
 list1 = c = e = []
+#'declaração' de listas
 
 
 def lnomes(e='',n='',d=''):
@@ -39,10 +40,14 @@ def lnomes(e='',n='',d=''):
 
     else:
         print('Error 404: command not found, try again..')
+    #Função que executará o comando e caso necessário, utilizará a especificação dada
 
 
 
 while True:
         c = str(input()).lower().strip()
+        #C recebe o comando e a especificação
         e = c.split(":")
+        #E pega o comando e a especificação como dois itens de uma lista
         print(lnomes(e))
+        #Imprime o retorno do comando que foi executado
